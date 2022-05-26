@@ -1,1 +1,17 @@
-Navbar is a component and that is why it is assigned globally outside the routes
+Navbar is a component is "global" so whatever element/effect you want to have for all the pages you put it in
+the components folder. For example...we want Navbar to be shown on all pages, so navbar is inside the compoenent
+folder, when we link ANY components, it should be b/w <Router> and <Routes> in the App.js.
+
+Remember the App.js is the main page/"index.html"
+For example 1:
+    <Router>
+        <Navbar />                            
+     <Routes>
+
+                                OR
+
+For example 2:
+    <Router>
+        <Navbar></Navbar>            
+     <Routes>
+
