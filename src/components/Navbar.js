@@ -12,10 +12,12 @@ function BootstrapNav () {
                       <NavDropdown.Item href="/blog">Blog</NavDropdown.Item>
                       <NavDropdown.Item href="/about">About Us</NavDropdown.Item>
                       <NavDropdown.Item href="/menu">Menu</NavDropdown.Item>
+                      <NavDropdown.Item href="/login">Login</NavDropdown.Item>
                   </NavDropdown>
                       <Nav.Link href="">Blog</Nav.Link>
                       <Nav.Link href="about">About Us</Nav.Link>
-                      <Nav.Link href="menu">Menu</Nav.Link>    
+                      <Nav.Link href="menu">Menu</Nav.Link>
+                      <Nav.Link href="login">Login</Nav.Link>     
                   </Nav>
               </Navbar>
               </div>
